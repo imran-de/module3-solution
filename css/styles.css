@@ -1,4 +1,74 @@
 *{
-  background-color:#123123;
-  color:#fffff;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  color: #fff;
+  background-color: #322E18;
+  font-family: 'Oxygen', sans-serif;
+}
+/*header section*/
+.navbar>h1>a{
+  font-weight: bold;
+  font-size: 28px;color: #fff!important;
+}
+.bg-nav{
+  background-color: #E3B23C;
+}
+/*End header section*/
+
+/* main body section*/
+.page-tile{
+  background-color: #210124;
+}
+.menu-description{
+  background-color: #E5FCF5;
+  color: #000;
+}
+/*End main body section*/
+/*footer section*/
+footer{
+  background-color: #243E36;
+  min-height: 200px;
+}
+/*End footer */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar>h1{
+  padding-left: 15px;
+  }
+ .navbar-collapse ul{
+  text-align: center;
+  margin-bottom: 20px;
+ }
+  .navbar-collapse ul li{
+  text-align: center;border-bottom: 2px groove #000;
+ }button:active{
+  background-color: #fff;
+ }
+ button{
+  margin-right: 20px;
+ } 
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
 }
